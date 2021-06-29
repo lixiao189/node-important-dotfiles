@@ -1,0 +1,19 @@
+[user]
+	name = Node Sans
+	email = lixiao189@outlook.com
+[init]
+	defaultBranch = main
+[core]
+	excludesfile = /Users/node/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/node/.stCommitMsg
+[https]
+	proxy = http://127.0.0.1:7890
+[http]
+	proxy = http://127.0.0.1:7890
