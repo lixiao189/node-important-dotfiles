@@ -8,7 +8,7 @@ fi
 # The custom config
 export PATH="/usr/local/opt/python@3.9/libexec/bin":$PATH
 export PATH="/Applications/MacVim.app/Contents/bin":$PATH 
-export BAT_THEME='GitHub'
+export BAT_THEME='Coldark-Dark'
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
