@@ -9,6 +9,7 @@ fi
 export PATH="/usr/local/opt/python@3.9/libexec/bin":$PATH
 export PATH="/Applications/MacVim.app/Contents/bin":$PATH 
 export BAT_THEME='ansi'
+export DOTNET_ROOT="/usr/local/opt/dotnet/libexec"
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
